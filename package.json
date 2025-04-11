@@ -1,6 +1,6 @@
 {
-	"name": "nrs-language-server",
-	"description": "nano rust language server",
+	"name": "mel-language-server",
+	"description": "mel language server",
 	"license": "MIT",
 	"version": "1.5.0",
 	"categories": [],
@@ -16,23 +16,23 @@
 	},
 	"enabledApiProposals": [],
 	"activationEvents": [
-		"onLanguage:nrs"
+		"onLanguage:mel"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"languages": [
 			{
-				"id": "nrs",
+				"id": "mel",
 				"extensions": [
-					".nrs"
+					".mel"
 				]
 			}
 		],
 		"configuration": {
 			"type": "object",
-			"title": "nrs-language-server",
+			"title": "mel-language-server",
 			"properties": {
-				"nrs-language-server.trace.server": {
+				"mel-language-server.trace.server": {
 					"type": "string",
 					"scope": "window",
 					"enum": [

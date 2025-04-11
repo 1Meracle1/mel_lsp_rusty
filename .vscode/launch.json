@@ -14,7 +14,7 @@
         "${workspaceRoot}/client/out/**/*.js"
       ],
       "env": {
-        "SERVER_PATH": "${workspaceRoot}/target/debug/nrs-language-server"
+        "SERVER_PATH": "${workspaceRoot}/target/debug/mel-language-server"
       }
     },
     // {
